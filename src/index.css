@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    display: grid;
+    align-content: center;
+    place-items: center;
+    gap: 2rem;
+    min-height: 100vh;
+    background: hsl(0 0% 90%);
+  }
+}
