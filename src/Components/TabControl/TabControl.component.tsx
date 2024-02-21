@@ -1,7 +1,6 @@
 export default function TabControl() {
   return (
-    <div className="flex flex-col gap-4">
-      {/* part 1 */}
+    <div className="flex flex-col gap-4 ">
       <div className="tabs has-[input:nth-of-type(1)] relative grid h-12 auto-cols-fr grid-flow-col rounded-lg border-4 border-black bg-black after:pointer-events-none after:absolute after:bottom-0 after:left-0 after:top-0 after:w-[calc(100%/var(--count,3))] after:translate-x-[calc(var(--active,0)*100%)] after:rounded-md after:bg-white after:mix-blend-difference after:outline after:outline-2 after:outline-transparent after:transition-[transform,outline] after:duration-200 after:content-[''] has-[input:nth-of-type(2)]:[--count:2] has-[input:nth-of-type(3)]:[--count:3] has-[:checked:nth-of-type(1)]:[--active:0] has-[:checked:nth-of-type(2)]:[--active:1] has-[:checked:nth-of-type(3)]:[--active:2] has-[:focus-visible]:after:outline-red-500">
         <input
           defaultChecked
